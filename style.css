@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Poppins:wght@100;200;300&family=Roboto:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#000;
+    color: #fff;
+    font-family: sans-serif;
+    padding:15px 0px 0px 0px;
+}
+
+li, a{
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    word-spacing: 35px;
+    padding:0px 0px 0px 7px;
+    }
+
+.header{
+    width: 100%;
+    height: 900px;
+    background-image: url("pexels-nao-triponez-129207.jpg");
+    padding-bottom: 100px;
+    background-position: bottom;
+    background-size: cover;
+    color: #fff;
+    font-family:"Playfair Display SC",sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.main-heading,.second-heading{
+   font-size: 64px;
+   word-spacing: 10px;
+}
+.main-heading{
+    position: absolute;
+    top: 120px;
+   
+}
+.second-heading{
+    position: absolute;
+    bottom: 65px;
+    padding:0px 0px 140px 0px;
+   }
+.btn{
+    position: absolute;
+    bottom: 130px;
+    border: none;
+    padding: 10px 30px;
+    background-color: #deab5f;
+   }
+img{
+    width: 400px;
+    height: 400px;
+    }
+.title-two{
+    font-size: 48px;
+    font-family: "Playfair Display SC", serif;
+    color: #fff;
+ }
+
+.coffee-container{
+background-color: black;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: #deab5f;
+    border: none;
+    cursor: pointer;
+}
+.content-section p{
+   
+    color: #fff;
+    padding: 10px 10px;
+    font-family: sans-serif;
+}
+
+.products{
+    background-color: #000;
+    
+}
+.title-three{
+    font-size: 64px;
+    font-family: "Playfair Display SC", serif;
+    color: #fff;
+    padding: 60px 0PX;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding: 60px;
+  }
+.card{
+    border: 2px solid #deab5f;
+    padding: 0px 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    }
+.items{
+    font-family: sans-serif;
+   }
+.items p{
+    padding: 15PX 0px;
+}
+footer{
+    height: 400px;
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    }
+.line{
+
+background-color: black;
+}
+
+hr{
+    width:35%;
+    border: 1px solid #deab5f;
+    margin: 0 auto;
+}
+
+
+.para{
+   background-color: #000;
+   color: #fff;
+   font-family: sans-serif;
+   text-align: center;
+   padding:20px 0px 0px 0px;
+   text-transform: capitalize;
+}
+
+span{
+    color: #deab5f;
+   }
+
+  .mini-heading{
+    text-align: center;
+    padding: 0px 20px 0px 0px ;
+}
+.container p{
+    padding: 20px 30px 0px 0px;
+    text-align: center;
+}
